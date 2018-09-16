@@ -1,4 +1,13 @@
-.navbar {
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    background-image: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 15px;
+
 
 }
 
@@ -181,3 +190,19 @@ footer h2 {
     color: #726885;
     font-size: 14px;
 }
+
+.form-control {
+    margin-right: 29px;
+
+}
+
+.message {
+    margin-top: 31px;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 15px 65px;
+    font-size: 22px;
+}
+
