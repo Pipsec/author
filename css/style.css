@@ -1,0 +1,145 @@
+
+
+.btn  {
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 26px;
+    margin-top: 54px;
+    margin-bottom: 174px;
+    display: inline-block;
+}
+
+.sec-white{
+    background-clip: white;
+    padding-top: 106px;
+    padding-bottom: 80px;
+}
+.sec-white h2{
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+    font-size: 42px;
+    color: #4e525d;
+    margin-bottom: 135px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #eeeef0;
+    border-radius: 100px;
+    position: relative;
+    margin-bottom: 70px;
+
+}
+.circle img{
+    display: block;
+    width: 100%;
+}
+
+.circle:after{
+    content: "+";
+    position: absolute;
+    font-size: 45px;
+    color: #f46d6d;
+    top: 38%;
+    line-height: 45px;
+    text-align: center;
+    width: 200px;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.circle:hover:after{
+    opacity: 1;
+}
+.col-md-3 h3{
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    color: #4e525d;
+    margin-bottom: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.col-md-3 h3 span{
+    font-size: 14px;
+    display: block;
+    margin-top: 13px;
+
+
+}
+
+.col-md-3 p{
+    font-size: 14px;
+    color: #4e525d;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+
+}
+
+.grey {
+    background-color: #f1f1f1;
+    padding-top: 119px;
+    padding-bottom: 80px;
+}
+
+.grey ul {
+    list-style: none;
+    text-align: center;
+    display: block;
+}
+.grey li {
+    border-bottom: solid 1px #ecf0f1;
+    line-height: 45px;
+    background-color: #fff;
+    font-size: 14px;
+    color: cadetblue;
+}
+li:first-child {
+    background-color: #485460;
+    line-height: 75px;
+    color: #fff;
+    font-size: 25px;
+    border-bottom: none;
+
+}
+li:nth-child(2) {
+    background-color: white;
+    line-height: 75px;
+    color: #0c5460;
+    font-size: 20px;
+}
+
+li a:last-child {
+    background-color: #788492;
+    line-height: 40px;
+}
+
+
+
+footer {
+    background: url('../images/Layer-28.png') no-repeat top center;
+    background-size: cover;
+    padding-bottom: 36px;
+}
+
+footer h2 {
+    padding-top: 109px;
+    padding-bottom: 118px;
+    text-align: center;
+    font-size: 42px;
+    color: white;
+    margin: 0px;
+
+}
+
+
