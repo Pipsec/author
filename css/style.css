@@ -1,12 +1,24 @@
+.navbar {
 
+}
 
-.btn  {
+h1 {
+    font-size: 63px;
+}
+
+.carousel-caption p {
+    font-size: 23px;
+    padding-bottom: 60px;
+}
+
+.learn  {
     border: 3px solid white;
     background-color: transparent;
     color: white;
     font-size: 26px;
-    margin-top: 54px;
-    margin-bottom: 174px;
+    margin-bottom: 70px;
+    padding: 19px 42px;
+    border-radius: 5px;
     display: inline-block;
 }
 
@@ -104,7 +116,7 @@
     font-size: 14px;
     color: cadetblue;
 }
-li:first-child {
+.grey li:first-child {
     background-color: #485460;
     line-height: 75px;
     color: #fff;
@@ -112,14 +124,14 @@ li:first-child {
     border-bottom: none;
 
 }
-li:nth-child(2) {
+.grey li:nth-child(2) {
     background-color: white;
     line-height: 75px;
     color: #0c5460;
     font-size: 20px;
 }
 
-li a:last-child {
+.grey li a:last-child {
     background-color: #788492;
     line-height: 40px;
 }
@@ -139,7 +151,33 @@ footer h2 {
     font-size: 42px;
     color: white;
     margin: 0;
-
 }
 
+.col-md-6 h3 {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
 
+.col-md-6 p {
+    color: #a6a6a6;
+    font-size: 14px;
+}
+
+.social {
+    padding-top: 43px;
+}
+
+.social a {
+    padding-right: 15px;
+}
+
+.contacts{
+    display: block;
+    padding-top: 22px;
+}
+
+.contacts p {
+    color: #726885;
+    font-size: 14px;
+}
