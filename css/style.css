@@ -25,6 +25,40 @@ h1 {
   font-size: 23px;
   padding-bottom: 60px; }
 
+.carousel-control.right {
+  background-image: none;
+  text-shadow: none;
+  background-color: #ffffff;
+  opacity: 1;
+  width: 50px;
+  height: 50px;
+  color: #49cbcd;
+  top: 50%;
+  margin-top: -25px;
+  right: 28px;
+  border-radius: 25px;
+  line-height: 50px;
+  text-align: center; }
+.carousel-control.left {
+  background-image: none;
+  text-shadow: none;
+  background-color: #ffffff;
+  opacity: 1;
+  width: 50px;
+  height: 50px;
+  color: #49cbcd;
+  top: 50%;
+  margin-top: -25px;
+  right: 28px;
+  border-radius: 25px;
+  line-height: 50px;
+  text-align: center;
+  left: 28px; }
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+  font-size: 20px;
+  width: 20px;
+  height: 20px; }
+
 .btn-secondary {
   border: 3px solid white;
   background-color: transparent;
