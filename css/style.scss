@@ -183,10 +183,20 @@ h1 {
     }
     a:last-child {
       background-color: #788492;
-      line-height: 40px;
+      padding: 12px 49px 16px 49px;
+      border-radius: 5px;
+      color: white;
+      font-size: 17px;
+      text-decoration: none;
+    }
+  }
+  .blue ul li {
+    &:first-child, a {
+      background-color: #49cbcd;
     }
   }
 }
+
 
 footer {
   background: url('../images/Layer-28.png') no-repeat top center;
