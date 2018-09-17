@@ -3,8 +3,24 @@
   border-color: transparent;
   background-image: none;
   box-shadow: none;
-  .navbar-nav > li > a {
+  margin: 0;
+  .navbar-nav li {
+    border-bottom: 3px solid transparent;
+
+  }
+  .navbar-nav li:hover {
+    background-color: #f8f9fb;
+    border-bottom: 3px solid #49cbcd;
+    color: #49cbcd;
+  }
+  .navbar-nav li a {
+    line-height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: #484c55;
     font-size: 15px;
+  }
+  .navbar-brand img {
+    padding-top: 30px;
   }
 }
 
@@ -17,7 +33,7 @@ h1 {
   padding-bottom: 60px;
 }
 
-.learn {
+.btn-secondary {
   border: 3px solid white;
   background-color: transparent;
   color: white;
@@ -33,8 +49,6 @@ h1 {
   padding-top: 106px;
   padding-bottom: 80px;
   h2 {
-    padding: 0px;
-    margin: 0;
     text-align: center;
     font-size: 42px;
     color: #4e525d;
@@ -42,6 +56,9 @@ h1 {
     font-family: 'Open Sans', sans-serif;
   }
 }
+
+
+
 
 .circle {
   width: 200px;
